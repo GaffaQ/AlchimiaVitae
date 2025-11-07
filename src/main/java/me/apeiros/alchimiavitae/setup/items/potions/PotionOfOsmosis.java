@@ -49,7 +49,7 @@ public class PotionOfOsmosis extends AbstractListenerPotion {
 
         // Make sure the player has effects
         if (p.getActivePotionEffects().isEmpty()) {
-            p.sendMessage(AlchimiaUtils.format("<red>你身上没有任何药水效果！"));
+            p.sendMessage(AlchimiaUtils.format("<red>You have no active potion effects!"));
             return;
         }
 
@@ -62,13 +62,13 @@ public class PotionOfOsmosis extends AbstractListenerPotion {
         }
 
         // Make a new potion
-        ItemStack newPotion = AlchimiaUtils.makePotion(
-                "AV_CORUSCATING_POTION",
-                AlchimiaUtils.format("<gradient:#6fe3e1:#53e6a6>闪烁的药水</gradient>"),
+    ItemStack newPotion = AlchimiaUtils.makePotion(
+        "AV_CORUSCATING_POTION",
+        AlchimiaUtils.format("<gradient:#6fe3e1:#53e6a6>Glimmering Potion</gradient>"),
                 Color.FUCHSIA, effects, false,
-                "&a来自",
-                AlchimiaUtils.format("<gradient:#6274e7:#8752a3>渗透药水</gradient>"),
-                "", AlchimiaUtils.itemType("药水"));
+        "&aFrom",
+        AlchimiaUtils.format("<gradient:#6274e7:#8752a3>Potion of Osmosis</gradient>"),
+        "", AlchimiaUtils.itemType("Potion"));
 
         // {{{ Finish
         new BukkitRunnable() {

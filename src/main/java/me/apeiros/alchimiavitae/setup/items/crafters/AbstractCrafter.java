@@ -53,13 +53,13 @@ abstract class AbstractCrafter<T> extends CraftingBlock {
 
     // {{{ Menu ItemStacks
     protected final ItemStack IN_BG_ITEM = new CustomItemStack(Material.ORANGE_STAINED_GLASS_PANE,
-            AlchimiaUtils.format("<gradient:#ff68fc:#ff9a5c>输入</gradient>"));
+        AlchimiaUtils.format("<gradient:#ff68fc:#ff9a5c>Input</gradient>"));
 
     protected final ItemStack CRAFT_BTN_ITEM = new CustomItemStack(Material.LIME_STAINED_GLASS_PANE,
-            AlchimiaUtils.format("<gradient:#39f792:#5c95ff>合成</gradient>"), "&a点击合成");
+        AlchimiaUtils.format("<gradient:#39f792:#5c95ff>Craft</gradient>"), "&aClick to craft");
 
     protected final ItemStack OUT_BG_ITEM = new CustomItemStack(Material.CYAN_STAINED_GLASS_PANE,
-            AlchimiaUtils.format("<gradient:#5cb8ff:#39f7e1>输出</gradient>"));
+        AlchimiaUtils.format("<gradient:#5cb8ff:#39f7e1>Output</gradient>"));
     // }}}
 
     // {{{ Abstract methods
@@ -197,7 +197,7 @@ abstract class AbstractCrafter<T> extends CraftingBlock {
 
         // Invalid recipe
         if (item == null) {
-            p.sendMessage(AlchimiaUtils.format("<red>无效的配方！"));
+            p.sendMessage(AlchimiaUtils.format("<red>Invalid recipe!"));
             return;
         }
 

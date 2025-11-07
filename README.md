@@ -1,12 +1,12 @@
-# AlchimiaVitae - 炼金术自传
+# AlchimiaVitae - Alchimia Tome
 
-粘液科技附属，添加了一些魔法，炼金，草药物品。
+A Slimefun addon adding magical, alchemical, and herbal items.
 
-该附属为作者的**2021 Slimefun Addon Jam**参赛作品。
+This addon was the author's entry for the **2021 Slimefun Addon Jam**.
 
-## 下载
+## Download
 
-点击这里下载 AlchimiaVitae: [下载 AlchimiaVitae](https://builds.guizhanss.net/ybw0014/AlchimiaVitae/master)
+Click here to download AlchimiaVitae: [Download AlchimiaVitae](https://builds.guizhanss.net/ybw0014/AlchimiaVitae/master)
 
 <p align="center">
   <a href="https://github.com/ybw0014/AlchimiaVitae/actions/workflows/maven.yml">
@@ -17,26 +17,26 @@
   </a>
 </p>
 
-## 特性
+## Features
 
-查看 Slimefun 指南获取更多信息。
+See the Slimefun guide for more information.
 
-### 工具与资源
-- 灵魂收集
-  - 从生物掉落更多经验
-  - 有几率掉落浓缩灵魂，一种制作材料
-- 光与暗魔法植物
-  - 用于酿造药水以及制作部分资源
-  - 使用灵魂或魔法精华注入橡树树苗获得
+### Tools & resources
+- Soul collecting
+  - Grants additional experience from mobs
+  - Has a chance to drop Condensed Soul, a crafting material
+- Light and Dark magic plants
+  - Used for brewing potions and crafting certain resources
+  - Obtained by infusing oak saplings with souls or magic essences
 
-### 合成
-- 神圣祭坛
-  - 用于制造高级物品
-  - 可以制作金属
-  - 可以将不同种类的生命变成压缩碳
-- 华丽炼药锅
-  - 用于酿造强力的药水
-    - 仁慈酿造与恶毒混合物
-- 注入祭坛
-  - 可以向工具、武器、防具注入强力的魔法
-  - 每个装备仅能选择一种注入魔法，不能同时添加多种注入魔法
+### Crafting
+- Divine Altar
+  - Used to craft advanced items
+  - Can create metals
+  - Can compress different forms of life into compressed carbon
+- Ornate Cauldron
+  - Used to brew powerful potions
+    - Benevolent Brew and Malevolent Concoction
+- Infusion Altar
+  - Can infuse powerful magic into tools, weapons, and armor
+  - Each piece of equipment can only have one infusion at a time

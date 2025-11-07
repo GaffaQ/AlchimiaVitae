@@ -60,9 +60,9 @@ public class Setup {
 
         CustomItemStack condensedSoulRecipeItem = new CustomItemStack(
                 Material.DROWNED_SPAWN_EGG,
-                "&b任何生物",
-                "&7凋灵骷髅与凋灵",
-                "&7有几率掉落更多魂...");
+                "&bAny creature",
+                "&7Wither skeletons and the Wither",
+                "&7Have a chance to drop extra souls...");
 
         new SlimefunItem(AlchimiaUtils.ItemGroups.GENERAL, AlchimiaItems.CONDENSED_SOUL, AlchimiaUtils.RecipeTypes.SOUL_COLLECTOR, new ItemStack[] {
                 null, null, null,
@@ -172,62 +172,62 @@ public class Setup {
     // {{{ Researches
     private static void setupResearches(AlchimiaVitae instance) {
         new Research(AbstractAddon.createKey("soul"), 131072,
-                "操纵生命能量", 15)
+                "Manipulate Life Energy", 15)
                 .addItems(AlchimiaItems.CONDENSED_SOUL, AlchimiaItems.SOUL_COLLECTOR)
                 .register();
 
         new Research(AbstractAddon.createKey("magic_plants"), 131073,
-                "强力植物", 20)
+                "Mighty Plants", 20)
                 .addItems(AlchimiaItems.PLANT_INFUSION_CHAMBER, AlchimiaItems.LIGHT_MAGIC_PLANT, AlchimiaItems.DARK_MAGIC_PLANT)
                 .register();
 
         new Research(AbstractAddon.createKey("magic_essence"), 131074,
-                "强力精华", 10)
+                "Potent Essence", 10)
                 .addItems(AlchimiaItems.LIGHT_ESSENCE, AlchimiaItems.DARK_ESSENCE)
                 .register();
 
         new Research(AbstractAddon.createKey("exp_crystals"), 131075,
-                "纯粹的晶体能量", 12)
+                "Pure Crystal Energy", 12)
                 .addItems(AlchimiaItems.EXP_CRYSTALLIZER, AlchimiaItems.EXP_CRYSTAL)
                 .register();
 
         new Research(AbstractAddon.createKey("magic_steel"), 131076,
-                "神秘金属", 16)
+                "Mysterious Metal", 16)
                 .addItems(AlchimiaItems.DARKSTEEL, AlchimiaItems.ILLUMIUM)
                 .register();
 
         new Research(AbstractAddon.createKey("divine_altar"), 131077,
-                "古代祭坛的远房亲戚", 36)
+                "Ancient Altar's Kin", 36)
                 .addItems(AlchimiaItems.DIVINE_ALTAR)
                 .register();
 
         new Research(AbstractAddon.createKey("metal_amalgamation"), 131078,
-                "金属物质的混合", 19)
+                "Metal Amalgamation", 19)
                 .addItems(AlchimiaItems.MOLTEN_MYSTERY_METAL, AlchimiaItems.MYSTERY_METAL)
                 .register();
 
         new Research(AbstractAddon.createKey("cosmic_cauldron"), 131079,
-                "高级酿造", 36)
+                "Advanced Brewing", 36)
                 .addItems(AlchimiaItems.COSMIC_CAULDRON)
                 .register();
 
         new Research(AbstractAddon.createKey("potion_of_osmosis"), 131080,
-                "吸收与反射", 30)
+                "Absorption and Reflection", 30)
                 .addItems(AlchimiaItems.POTION_OF_OSMOSIS)
                 .register();
 
         new Research(AbstractAddon.createKey("benevolent_brew"), 131081,
-                "来自盖亚的祝福", 20)
+                "Blessing of Gaia", 20)
                 .addItems(AlchimiaItems.BENEVOLENT_BREW)
                 .register();
 
         new Research(AbstractAddon.createKey("malevolent_concoction"), 131082,
-                "恶魔液体", 20)
+                "Demonic Liquid", 20)
                 .addItems(AlchimiaItems.MALEVOLENT_CONCOCTION)
                 .register();
 
         new Research(AbstractAddon.createKey("altar_of_infusion"), 131083,
-                "注入", 36)
+                "Infusion", 36)
                 .addItems(AlchimiaItems.ALTAR_OF_INFUSION)
                 .register();
     }

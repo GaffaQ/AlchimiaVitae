@@ -25,8 +25,8 @@ public class AlchimiaVitae extends AbstractAddon {
         instance = this;
 
         if (!getServer().getPluginManager().isPluginEnabled("GuizhanLibPlugin")) {
-            getLogger().log(Level.SEVERE, "本插件需要 鬼斩前置库插件(GuizhanLibPlugin) 才能运行!");
-            getLogger().log(Level.SEVERE, "从此处下载: https://50L.cc/gzlib");
+            getLogger().log(Level.SEVERE, "This plugin requires the GuizhanLibPlugin dependency to run!");
+            getLogger().log(Level.SEVERE, "Download it from: https://50L.cc/gzlib");
             getServer().getPluginManager().disablePlugin(this);
             return;
         }

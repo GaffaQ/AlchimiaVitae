@@ -77,7 +77,7 @@ public class TotemListener implements Listener {
         if (e.getItem() == null || !e.getItem().isSimilar(new ItemStack(Material.TOTEM_OF_UNDYING))) {
             // If the item isn't a totem, inform the player of the current number of totems
             p.sendMessage(AlchimiaUtils.format(
-                    "<green>图腾电池存储了" + totems + "个不死图腾。"
+                    "<green>Totem Battery currently holds " + totems + " Totems of Undying."
                 )
             );
 
@@ -87,7 +87,7 @@ public class TotemListener implements Listener {
 
         // Check if there are already 8 totems
         if (totems > 7) {
-            p.sendMessage(AlchimiaUtils.format("<red>图腾电池没有多余的空间了！"));
+            p.sendMessage(AlchimiaUtils.format("<red>The Totem Battery has no more space!"));
             p.getWorld().playSound(p.getLocation(), Sound.ENTITY_ENDERMAN_TELEPORT, 1F, 1F);
             return;
         }
@@ -107,9 +107,9 @@ public class TotemListener implements Listener {
         p.getInventory().getChestplate().setItemMeta(meta);
 
         // Inform the player of the new number of totems
-        p.sendMessage(AlchimiaUtils.format("<green>图腾已被存储至图腾电池中。"));
+        p.sendMessage(AlchimiaUtils.format("<green>The Totem has been stored in the Totem Battery."));
         p.sendMessage(AlchimiaUtils.format(
-            "<green>图腾电池存储了" + totems + "个不死图腾。"
+            "<green>Totem Battery currently holds " + totems + " Totems of Undying."
             )
         );
 
@@ -193,7 +193,7 @@ public class TotemListener implements Listener {
         };
 
         p.sendMessage(AlchimiaUtils.format(
-                color + "图腾电池存储了" + totems + "个不死图腾。"
+                color + "Totem Battery currently holds " + totems + " Totems of Undying."
             )
         );
 
